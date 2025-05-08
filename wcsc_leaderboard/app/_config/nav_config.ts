@@ -1,16 +1,13 @@
 
-export type NavTab = {
+export type BasicNavTabs = {
     name: string;
     path: string;
   };
   
-  export const navTabs: NavTab[] = [
-    { name: "Dashboard", path: "/" },
+  export const BasicNavTabs: BasicNavTabs[] = [
+    { name: "Dashboard", path: "/dashboard" },
     { name: "LeaderBoard", path: "/leaderboard" },
-    { name: "Practice", path: "/Practice" },
-    { name: "Compettion", path: "/compettion" },
-    { name: "Contents", path: "/contents" },
-    { name: "About", path: "/about" },
-    { name: "Profile", path: "/profile" },
+    { name: "For Developers", path: "/forDevelopers" },
+    { name: "profile", path: "/profile" },
   ];
   
